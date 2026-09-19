@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Mastering React 19: The New Era of Modern Web Development",
+    "author": "Alex Rivera",
+    "date": "March 12, 2025",
+    "category": "React",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=800&auto=format&fit=crop",
+    "excerpt": "Discover the game-changing features in React 19, including the React Compiler, Actions, and enhanced hooks.",
+    "content": "React 19 introduces a paradigm shift in how we architect web applications. With the new React Compiler, memoization hooks like useMemo and useCallback become largely automatic, freeing developers from boilerplate optimization code. Furthermore, first-class support for Actions and document metadata makes building robust, SEO-friendly applications simpler than ever.\n\nIn this article, we break down why these updates matter for beginners and experienced developers alike. We will explore practical migration paths, the deprecation of legacy patterns, and how you can prepare your next project to take full advantage of the React 19 runtime."
+  },
+  {
+    "id": 2,
+    "title": "A Beginner's Practical Guide to Modern JavaScript ES2024",
+    "author": "Sophia Chen",
+    "date": "March 08, 2025",
+    "category": "JavaScript",
+    "image": "https://images.unsplash.com/photo-1579468118864-ddb9ea429e71?q=80&w=800&auto=format&fit=crop",
+    "excerpt": "Explore the most useful ES6+ features that every modern frontend developer must understand before learning React.",
+    "content": "Before jumping into any frontend framework, having a solid foundation in JavaScript is non-negotiable. Modern JavaScript provides powerful primitives such as destructuring, arrow functions, spread/rest operators, template literals, and async/await syntax that form the backbone of modern web applications.\n\nUnderstanding how array methods like Array.map(), Array.filter(), and Array.reduce() work is particularly essential for React development, where UI is rendered as a pure function of state and data. We'll walk through interactive code examples that illuminate each concept."
+  },
+  {
+    "id": 3,
+    "title": "Building Lightning-Fast Web Applications with Vite and React",
+    "author": "Marcus Brody",
+    "date": "February 28, 2025",
+    "category": "Web Development",
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=800&auto=format&fit=crop",
+    "excerpt": "Why Vite has become the de-facto build tool for modern frontend projects and how it replaces Webpack.",
+    "content": "Traditional bundlers like Webpack bundle your entire application before starting the development server. In contrast, Vite leverages native ES modules in the browser, providing instant server start and lightning-fast Hot Module Replacement (HMR) regardless of your application's size.\n\nIn this guide, we dive into how Vite compiles code on demand using esbuild, how to configure plugins for React, and how to optimize production builds with Rollup under the hood. You'll also learn tips for asset handling and environment variables."
+  },
+  {
+    "id": 4,
+    "title": "Clean Code Principles Every Junior Programmer Should Know",
+    "author": "Elena Rostova",
+    "date": "February 20, 2025",
+    "category": "Programming",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop",
+    "excerpt": "Write readable, maintainable, and extensible code by applying foundational software engineering principles.",
+    "content": "Writing code that works is only half the battle; writing code that other developers (and your future self) can easily read and maintain is what distinguishes great software engineers. Principles like DRY (Don't Repeat Yourself), KISS (Keep It Simple, Stupid), and single responsibility give you clear guidelines.\n\nWe cover naming conventions, function decomposition, effective error handling, and commenting practices. Learn how to transform tangled spaghetti code into clean, modular components that scale effortlessly."
+  },
+  {
+    "id": 5,
+    "title": "Understanding Artificial Intelligence: The Tech Shaping Our World",
+    "author": "David Kim",
+    "date": "February 15, 2025",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
+    "excerpt": "A high-level look at how large language models and autonomous agents are revolutionizing software development.",
+    "content": "Artificial Intelligence is no longer confined to research laboratories. In 2025, developers collaborate daily with intelligent coding agents, semantic search tools, and automated deployment pipelines that accelerate innovation at unprecedented speed.\n\nThis article demystifies neural networks, prompt engineering, and agentic workflows for frontend developers. We discuss how AI fits into your daily tooling and how to build software with AI integration in mind."
+  },
+  {
+    "id": 6,
+    "title": "Deep Dive into React State Management: useState vs useReducer",
+    "author": "Alex Rivera",
+    "date": "February 04, 2025",
+    "category": "React",
+    "image": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=800&auto=format&fit=crop",
+    "excerpt": "When should you stick with simple useState, and when does useReducer make your component logic cleaner?",
+    "content": "State management is the beating heart of React applications. While useState is perfect for independent, straightforward values like toggles or inputs, complex UI states with interdependent transitions often benefit immensely from useReducer.\n\nWe illustrate a real-world shopping cart and filter interface comparing both approaches side-by-side. By the end of this article, you will have a clear mental model for choosing the right hook every time."
+  },
+  {
+    "id": 7,
+    "title": "Responsive Web Design Without CSS Frameworks in 2025",
+    "author": "Sarah Jenkins",
+    "date": "January 26, 2025",
+    "category": "Web Development",
+    "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=800&auto=format&fit=crop",
+    "excerpt": "Harness the native power of CSS Grid, Flexbox, container queries, and clamp() to build stunning responsive layouts.",
+    "content": "While frameworks like Tailwind and Bootstrap have their place, native CSS has evolved so dramatically that you can create complex, fluid layouts with surprisingly few lines of code. CSS Grid simplifies two-dimensional layouts, Flexbox handles linear distribution, and CSS Container Queries allow components to adapt to their container rather than just the viewport.\n\nWe build an adaptive multi-column dashboard from scratch using only pure CSS, zero external dependencies, and modern media queries."
+  },
+  {
+    "id": 8,
+    "title": "Demystifying Asynchronous JavaScript and Promises",
+    "author": "Sophia Chen",
+    "date": "January 18, 2025",
+    "category": "JavaScript",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop",
+    "excerpt": "Master the event loop, microtasks, promises, and async/await syntax to write bug-free asynchronous code.",
+    "content": "JavaScript's single-threaded nature means that handling network requests, file reading, or timers requires an asynchronous execution model. Understanding the event loop, call stack, and task queue is crucial for diagnosing race conditions and UI freezes.\n\nThis tutorial breaks down Promise states (pending, fulfilled, rejected), error handling with try/catch blocks, and parallel request orchestration using Promise.all and Promise.allSettled with practical scenarios."
+  },
+  {
+    "id": 9,
+    "title": "Git and GitHub Essentials for Modern Software Teams",
+    "author": "Marcus Brody",
+    "date": "January 10, 2025",
+    "category": "Programming",
+    "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?q=80&w=800&auto=format&fit=crop",
+    "excerpt": "Learn branching strategies, pull request etiquette, rebasing, and resolving merge conflicts with confidence.",
+    "content": "Version control is the primary communication channel of software engineering teams. Knowing how to write semantic commit messages, structure feature branches, and participate in thorough code reviews makes you an invaluable team member.\n\nWe provide a cheatsheet of must-know Git commands, explain Git rebase vs Git merge in plain English, and share best practices for creating collaborative GitHub Pull Requests."
+  },
+  {
+    "id": 10,
+    "title": "The Evolution of Cloud Computing and Edge Networks",
+    "author": "David Kim",
+    "date": "January 03, 2025",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
+    "excerpt": "How edge computing and serverless infrastructure are bringing computation closer to users globally.",
+    "content": "Edge computing represents a dramatic evolution from traditional centralized data centers. By distributing compute functions across geographically dispersed edge locations, web applications can deliver sub-millisecond responses to users around the globe.\n\nLearn how serverless edge functions, distributed key-value stores, and modern content delivery networks work together to power resilient, globally scalable web applications."
+  }
+]
