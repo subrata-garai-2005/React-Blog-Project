@@ -49,10 +49,7 @@ export default function Header({
             </div>
             <div>
               <span className="text-lg sm:text-2xl font-extrabold tracking-tight bg-gradient-to-r from-white via-slate-100 to-indigo-200 light:from-slate-900 light:to-indigo-700 bg-clip-text text-transparent">
-                My React Blog
-              </span>
-              <span className="hidden lg:inline-block ml-2 px-2 py-0.5 text-[10px] uppercase font-bold tracking-wider rounded-full bg-indigo-500/20 text-indigo-300 light:bg-indigo-50 light:text-indigo-600 border border-indigo-500/30">
-                PRO UI
+                React Blog
               </span>
             </div>
           </div>
